@@ -11,7 +11,7 @@ public class loginfacebook02 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebElement email = driver.findElement(By.name("email"));
 		email.sendKeys("rajesh.prabha.376@gmail.com");
 		WebElement pass = driver.findElement(By.name("pass"));
